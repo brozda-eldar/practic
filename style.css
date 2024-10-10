@@ -1,6 +1,17 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+.world{
+    margin-right: 172px;
+}
+.work{
+    margin-right: 12px;
+}
+.container{
+    width: 1230px;
+    margin: 0 auto;
 }
 ul{
     list-style: none;
@@ -10,12 +21,26 @@ ul{
     align-items: center;
 }
 li{
-    
-}
-header{
+    font-size: 16px; 
     display: flex;
     flex-direction: row;
+
 }
-.logo{
-    
+header{
+    height: 92px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero{
+    padding: 220px 0 120px;
+    background-image: url(bg-image.jpg);
+}
+h1{
+    width: 595px;
+    color: white;
+}
+button{
+    border: 1px solid black;
 }

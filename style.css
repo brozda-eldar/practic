@@ -42,23 +42,40 @@ header{
     padding: 220px 0 120px;
     background-image: url(bg-image.jpg);
 }
+
+.hero span {
+    color:#ff5a30;
+}
+
 h1{
-    width: 595px;
+    line-height: 93.6px;
+    font-size: 72px;
     color: white;
 }
-button{
-    background-color: brown;
-    border: 1px solid black;
+.createx_p{
     color: white;
+    line-height: 30px;
+    font-size: 20px;
+    width: 595px;
+    height: 90px;
+}
+.button{
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 52px;
+    padding: 0 40px;
+    background-color: #ff5a30;
+    color: white;
+    margin: 61px 0 179px;
 }
 .transparent_btn{
     background-color:transparent;
-    border: 1px solid black;
-    color: white;
+    margin-right: 24px;
+    border: 1px solid rgb(255, 255, 255);
 }
 .orange_btn{
     border: none;
-    color: white;
 }
 .line_itm{
     display: flex;
@@ -132,4 +149,25 @@ p{
 .core_li:nth-child(2) {
     border-left: 1px solid black;
     border-right: 1px solid black;
+}
+h3{
+    text-align: center;
+}
+
+.send_btn{
+    background-color: #ff5a30
+}
+.form_input{
+
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+}
+
+.form_input input {
+    width: 260px;
+    padding: 11px 16px;
+}
+.send_btn{
+
 }
